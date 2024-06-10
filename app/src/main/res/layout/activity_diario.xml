@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pme">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="586dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="22dp"
+        android:background=""
+        android:fontFamily="times"
+        android:text="Quais emoções dominaram seus pensamentos hoje ? "
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="106dp"
+        android:layout_height="89dp"
+        android:layout_marginStart="372dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/writing" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="458dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/border"
+        android:fontFamily="times"
+        android:hint="'Este é o lugar seguro onde você pode desabafar, refletir e compartilhar seus sentimentos. Na AddiTIon, entendemos que expressar emoções pode ser desafiador, mas estamos aqui para apoiá-lo nessa jornada. Escreva aqui o que está em seu coração e mente, sem julgamentos, apenas compreensão.'"
+        android:paddingLeft="8dp"
+        android:textColor="#808080"
+        android:textSize="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
